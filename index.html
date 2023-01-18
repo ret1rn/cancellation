@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+        img {
+            height: 50px;
+            width: 50px;
+            cursor: pointer;
+        }
+        .btns {
+            padding: 10px 0px;
+        }
+        .btns button {
+            height: 30px;
+            width: 100px;
+            border-radius: 8px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <img src="./img/up.png" alt="icons-up" class="up">
+    <h1 id="counter"></h1>
+    <img src="./img/down.png" alt="icons-down" class="down">
+    <div class="btns">
+        <button class="cancellation">Cancel</button>
+        <button class="randomNum">Random</button>
+    </div>
+    
+</body>
+<script src="./main.js"></script>
+</html>
